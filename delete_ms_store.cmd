@@ -30,6 +30,10 @@ powershell.exe -Command "& {Get-AppxPackage *Microsoft.WindowsStore* | Remove-Ap
 
 powershell.exe -Command "& {clear}"
 
+powershell.exe -Command "& {Get-AppxPackage *Microsoft.StorePurchaseApp* | Remove-AppxPackage}"
+
+powershell.exe -Command "& {clear}"
+
 powershell.exe -Command "& {Get-AppxPackage *Microsoft.XboxIdentityProvider* | Remove-AppxPackage}"
 
 powershell.exe -Command "& {clear}"
